@@ -37,7 +37,7 @@ def display_error(message):
 
 city = st.text_input("Enter city name", placeholder="Enter a city like New York or Tokyo...")
 
-api_key = 64e4376d3af1b7add4135a6e2aa7e493
+api_key = "64e4376d3af1b7add4135a6e2aa7e493"
 
 if st.button("Get Weather"):
     if city:
